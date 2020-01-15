@@ -1,18 +1,32 @@
 function wakeDog(dogName, dogBreed) {
-  console.log("Wake Byron the poodle");
+  str = `Wake ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
 }
 function leashDog(dogName, dogBreed) {
-  console.log("Leash Byron the poodle");
+  str = `Leash ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
 }
-function walkDogPark(dogName, dogBreed) {
-  console.log("Walk to the park with Byron the poodle");
+function walkToPark(dogName, dogBreed) {
+  str = `Walk to the park with ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
 }
-function frisbeeDog(dogName, dogBreed) {
-  console.log("Throw the frisbee for Byron the poodle");
+function throwFrisbee(dogName, dogBreed) {
+  str = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
 }
-function walkDogHome(dogName, dogBreed) {
-  console.log("Walk home with Byron the poodle");
+function walkHome(dogName, dogBreed) {
+  str = `Walk home with ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
 }
 function unleashDog(dogName, dogBreed) {
-  console.log("Unleash Byron the poodle");
+  str = `Unleash ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
 }
+
+let routine = [];
