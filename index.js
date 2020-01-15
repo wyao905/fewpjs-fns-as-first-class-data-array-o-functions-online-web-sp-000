@@ -11,7 +11,7 @@ function frisbeeDog() {
   console.log("Throw the frisbee for Byron the poodle");
 }
 function walkDogHome() {
-  
+  console.log("Walk home with Byron the poodle");
 }
 function unleashDog() {
   
