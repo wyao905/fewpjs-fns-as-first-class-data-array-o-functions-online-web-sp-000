@@ -29,4 +29,8 @@ function unleashDog(dogName, dogBreed) {
   return str;
 }
 
-let routine = [];
+let routine = [wakeDog()];
+
+function exerciseDog(dogName, dogBreed) {
+  
+}
